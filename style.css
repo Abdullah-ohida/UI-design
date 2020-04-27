@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    background-color: #D1E2FF;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.flex-container{
+    background: #D1E2FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    width: 250px;
+    height: 550px;
+    background: rgb(241, 243, 247);
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2em 1em;
+}
+
+section{
+    margin-bottom: 2em;
+    padding: 1.2em 0 .0em;
+    background: #cbdbf845;
+    border-radius: 0 0 0 60%; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 0;
+}
+
+section img{
+    padding-bottom: 2.5em;
+}
+
+section h2{
+    font-size: 22px;
+    width: 170px;
+    margin: 0 auto;
+    color: #445DCB;
+}
+
+.sub{
+    padding: 1em;
+}
+
+.sub p{
+    line-height: 1.3rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dot-style{
+    text-align: center;
+    margin: 2em 0 1em;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot1, .dot2, .dot3{
+  background-color: #445DCB;
+  }
+  
+
+button{
+    border-radius: 25px;
+    padding: .7em 1.5em;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.button .one{
+    color: rgb(170, 165, 165);
+    background-color:rgb(219, 216, 216);
+    cursor: pointer;
+}
+.button .one:hover{
+    color: rgb(230, 225, 225);
+    background-color:rgb(192, 188, 188);
+    cursor: pointer;
+}
+
+.button .two{
+    color: rgb(255, 255, 255);
+    background-color:#445DCB;
+}
+
+.button .two:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(27, 62, 216);
+}
+
+.cut{
+    /**/
+    padding: 40px 0;
+    background: #e6efff45;
+    border-radius: 0 0 50% 50%;
+    position: relative;
+}
